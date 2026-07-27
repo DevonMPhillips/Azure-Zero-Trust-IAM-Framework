@@ -73,7 +73,7 @@ Microsoft Entra ID (Free Tier is sufficient for this phase)
 
 #### 1. Create Departmental Security Groups: Microsoft Entra ID.
 
-Groups">
+##### Groups:
 Before creating users, we build the logical containers they will reside in.
 
 Navigate to Microsoft Entra ID and select Groups from the left menu. 
@@ -90,13 +90,16 @@ Create the following five groups. Use a clear naming convention:
 - SG-Finance-Users
 - SG-Marketing-Users
 - SG-Engineering-Devs
+  
+<br>
+<img width="956" height="617" alt="image" src="https://github.com/user-attachments/assets/e77d180d-359b-4f23-a495-662f15b63ef6" />
+<br>
 
-Why this matters: Prefixing groups with SG- (Security Group) instantly identifies the group's purpose when searching through hundreds of directory objects later.
+Why this matters: Prefixing groups with SG- (Security Group) identifies the group's purpose when searching.
 
 #### 2. Provision Cloud-Only Users: Microsoft Entra ID.
 
-Users">
-
+##### Users:
 Now we will create the employee identities.
 
 Navigate to Users > All users > New user > Create new user.
@@ -116,8 +119,6 @@ Create one user for each department to act as your test subjects:
 | Evan Engineering | Engineering | `evan.engineering@[yourtenant].onmicrosoft.com` |
 
 Assign Users to Security Groups: Microsoft Entra ID.
-
-Groups">
 
 Map the users to their respective departmental roles.
 
