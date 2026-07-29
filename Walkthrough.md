@@ -1,4 +1,4 @@
-##Full Walkthrough
+# Full Walkthrough
 Detailed technical breakdown.
 
 ## Phase 1: Foundational Directory Setup
